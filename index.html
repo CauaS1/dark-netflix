@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/inicial.css">
+  <link rel="stylesheet" href="./styles/middle.css">
+  <link rel="stylesheet" href="./styles/episodes.css">
+  <link rel="stylesheet" href="./styles/details.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
+
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+</head>
+
+<!--
+  i n i c i a l
+-->
+
+<body>
+  <header>
+    <div class="header">
+      <div class="img-container">
+        <img src="/img/logo.png" alt="">
+      </div>
+
+      <div class="buttons">
+        <h3>UNLIMITED TV SHOWS & MOVIES</h3>
+        <a href="#" class="join">JOIN NOW</a>
+        <a href="#" class="singin">SING IN</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="backg-dark"></div>
+    <div class="about-dark">
+      <img src="./img/darklogo.png" alt="logo" class="logo">
+      <div class="content">
+        <h4>Dark</h4>
+        <p class="about-text">2017 | 16 | 2 Seasons | TV Mysteries </p>
+        <p class="synopsis">A missing child sets four families on a frantic hunt for answers as they <br>
+          unearth a mind-bending mystery that spans three generations.
+        </p>
+
+        <p> <span> Starring: </span>Louis Hofmann, Oliver Masucci, Jördis Triebe</p>
+        <p> <span>Creators: </span> Baran bo Odar, Jantje Friese</p>
+      </div>
+    </div>
+  </main>
+
+  <!--
+    m i d d l e 
+  -->
+
+  <div class="season-3">
+    <h3>Season 3 Coming June 27</h3>
+    <p>This suspenseful series from Baran bo Odar and Jantje Friese won a <br>
+      Grimme Preis award for television fiction.
+    </p>
+  </div>
+
+  <div class="videos">
+    <h2>Videos | <span>Dark</span></h2>
+    <div class="thumbnails">
+      <div class="video-1">
+        <img src="./img/vid1.jpg" alt="video1">
+        <p>Dark: Season 2 (Trailer) </p>
+      </div>
+      <div class="video-2">
+        <img src="./img/vid2.jpg" alt="video2">
+        <p>The Epic Confrontation</p>
+      </div>
+      <div class="video-2">
+        <img src="./img/vid3.jpg" alt="video3">
+        <p>Dark (Trailer)</p>
+      </div>
+      <div class="video-4">
+        <img src="./img/vid4.jpg" alt="video4">
+        <p>The Hero's Journey</p>
+      </div>
+      <div class="video-5">
+        <img src="./img/vid5.jpg" alt="video5">
+        <p>The Mysterious</p>
+      </div>
+      <div class="video-6">
+        <img src="./img/vid6.jpg" alt="video6">
+        <p>Dark Season 1 (Recap)</p>
+      </div>
+    </div>
+  </div>
+
+  <!--
+    e p i s o d e s
+  -->
+
+  <div class="episodes">
+    <h2>Episodes | <span> Dark </span></h2>
+    <div class="season">
+      <select name="season1" class="season-select" onchange="choice1(this)">
+        <option value="s1" selected>Season 1</option>
+        <option value="s2">Season 2</option>
+      </select>
+      <!--
+        A B O U T  S E A S O N 1 
+      -->
+
+      <div class="about-s1">
+        <h3>Release year: 2017</h3>
+        <p>A missing child sets four families on a frantic hunt for answers as they unearth a <br>
+          mind-bending mystery that spans three generations.
+        </p>
+      </div>
+
+      <div class="about-s2">
+        <h3>Release year: 2019</h3>
+        <p>Six months after the disappearances of Mikkel, Jonas and Ulrich, Winden's web of<br>
+          mysteries deepens -- and the fate of the world hangs in the balance. </p>
+      </div>
+    </div>
+
+    <!--
+      S E A S O N  1  E P S
+    -->
+
+    <div class="all-s1">
+      <div class="ep-one">
+        <img src="./img/s1/ep1.jpg" alt="ep1">
+        <div class="name-time">
+          <h3>1. Secrets</h3>
+          <p>52m</p>
+        </div>
+        <p>In 2019, a local boy's disappearance stokes fear in the residents of
+          Winden, a small German town with a strange and tragic history.</p>
+      </div>
+      <div class="ep-two">
+        <img src="./img/s1/ep2.jpg" alt="ep2">
+        <div class="name-time">
+          <h3>2. Lies</h3>
+          <p>45m</p>
+        </div>
+        <p>When a grim discovery leaves the police baffled, Ulrich seeks a search
+          warrant for the power plant. A mysterious stranger checks into the hotel.</p>
+      </div>
+      <div class="ep-three">
+        <img src="./img/s1/ep3.jpg" alt="ep3">
+        <div class="name-time">
+          <h3>3. Past and Present</h3>
+          <p>46m</p>
+        </div>
+        <p>
+          It's 1986, and Ulrich's brother, Mads,
+          has been missing for a month. Confusion reigns as past and present intertwine.
+        </p>
+      </div>
+      <div class="ep-four">
+        <img src="./img/s1/ep4.jpg" alt="ep4">
+        <div class="name-time">
+          <h3>4. Double Lives</h3>
+          <p> 48m </p>
+        </div>
+        <p>Bizarre occurrences give Charlotte a sense of déjà vu, and she suspects Peter is hiding something. Franziska
+          snaps when Magnus confronts her.</p>
+      </div>
+      <div class="ep-five">
+        <img src="./img/s1/ep5.jpg" alt="ep5">
+        <div class="name-time">
+          <h3>5. Truths</h3>
+          <p>46m</p>
+        </div>
+        <p>Hannah takes her obsession with Ulrich too far. The stranger asks Regina to deliver an important package.
+          Martha is torn between Jonas and Bartosz</p>
+      </div>
+      <div class="ep-six">
+        <img src="./img/s1/ep6.jpg" alt="ep6">
+        <div class="name-time">
+          <h3>6. Sic Mundus Creatus Est</h3>
+          <p>51m</p>
+        </div>
+        <p>Ulrich looks to the past for answers and dredges up disturbing family secrets. Armed with new tools, Jonas
+          probes the cave's murky depths</p>
+      </div>
+      <div class="ep-seven">
+        <img src="./img/s1/ep7.jpg" alt="ep7">
+        <div class="name-time">
+          <h3>7. Crossroads</h3>
+          <p>52m</p>
+        </div>
+        <p>In 1953, the disfigured bodies of two boys are exhumed at a construction site, the future location of
+          Winden's nuclear power plant.</p>
+      </div>
+      <div class="ep-eight">
+        <img src="./img/s1/ep8.jpg" alt="ep8">
+        <div class="name-time">
+          <h3>8. As You Sow, so You Shall Reap</h3>
+          <p>50m</p>
+        </div>
+        <p>In 1953, the disfigured bodies of two boys are exhumed at a construction site, the future location of
+          Winden's nuclear power plant.
+        </p>
+      </div>
+      <div class="ep-nine">
+        <img src="./img/s1/ep9.jpg" alt="ep9">
+        <div class="name-time">
+          <h3>9. Everything Is Now</h3>
+          <p>55m</p>
+        </div>
+        <p>Ulrich runs afoul of the law, Helge tries to dodge Egon Tiedemann, Claudia harnesses the cave's powers, and
+          Katharina lashes out at Hannah.</p>
+      </div>
+      <div class="ep-ten">
+        <img src="./img/s1/ep10.jpg" alt="ep10">
+        <div class="name-time">
+          <h3>10. Alpha and Omega</h3>
+          <p>57m</p>
+        </div>
+        <p>Peter gets a shock. Jonas learns the truth about his family, but there are more surprises still to come.
+          Helge makes a sacrifice.</p>
+      </div>
+    </div>
+
+    <!--
+      S E A S O N  2  E P S
+    -->
+
+    <div class="all-s2">
+      <div class="ep-one">
+        <img src="./img/s2/ep1.jpg" alt="ep1">
+        <div class="name-time">
+          <h3>1. Beginning and Endings</h3>
+          <p>54m</p>
+        </div>
+        <p>Six months after the disappearances, the police form a task force. In 2052, Jonas learns that most of Winden
+          perished in an apocalyptic event</p>
+      </div>
+      <div class="ep-two">
+        <img src="./img/s2/ep2.jpg" alt="ep2">
+        <div class="name-time">
+          <h3>2. Dark Matter</h3>
+          <p>45m</p>
+        </div>
+        <p>Clausen and Charlotte interview Regina. The Stranger takes Hannah to 1987, where Claudia has an unnerving
+          encounter and Egon visits an old nemesis.</p>
+      </div>
+      <div class="ep-three">
+        <img src="./img/s2/ep3.jpg" alt="ep3">
+        <div class="name-time">
+          <h3>3. Past and Present</h3>
+          <p>46m</p>
+        </div>
+        <p>
+          In 1954, a missing Helge returns, but he'll only speak to Noah. In 1987, Claudia brings the time machine to
+          Tannhaus, and Egon questions Ulrich again.
+        </p>
+      </div>
+      <div class="ep-four">
+        <img src="./img/s2/ep4.jpg" alt="ep4">
+        <div class="name-time">
+          <h3>4. The Travelers</h3>
+          <p> 61m </p>
+        </div>
+        <p>Jonas meets an ominous figure. While the kids comb the cave for answers, the adults gather in the bunker to
+          share what they know about the travelers.</p>
+      </div>
+      <div class="ep-five">
+        <img src="./img/s2/ep5.jpg" alt="ep5">
+        <div class="name-time">
+          <h3>5. Lost and Found</h3>
+          <p>56m</p>
+        </div>
+        <p>In 1987, Ulrich seizes an opportunity. The kids return to the cave with the time machine, and Jonas learns of
+          a loophole that could change the future.
+        </p>
+      </div>
+      <div class="ep-six">
+        <img src="./img/s2/ep6.jpg" alt="ep6">
+        <div class="name-time">
+          <h3>6. And Endless Cycle</h3>
+          <p>55m</p>
+        </div>
+        <p>Armed with a plan to prevent the apocalypse, Jonas travels to 2019. During the Nielsens' anniversary party,
+          Ulrich sneaks off with Hannah</p>
+      </div>
+      <div class="ep-seven">
+        <img src="./img/s2/ep7.jpg" alt="ep7">
+        <div class="name-time">
+          <h3>7. The White Devil</h3>
+          <p>58m</p>
+        </div>
+        <p>Martha meets the Stranger and learns his true identity. Claudia tries to prevent Egon's death in 1987. Hannah
+          travels to 1954 to see Ulrich.</p>
+      </div>
+      <div class="ep-eight">
+        <img src="./img/s2/ep8.jpg" alt="ep8">
+        <div class="name-time">
+          <h3>8. Endings and Beginnings</h3>
+          <p>50m</p>
+        </div>
+        <p>On the day of the apocalypse, Clausen executes a search warrant at the power plant as Jonas and Claudia use
+          the time machine to connect past and future.
+        </p>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!--
+    T H E  E N D
+  -->
+
+  </div>
+  </div>
+
+  <script src="./scripts/carrossel.js"></script>
+  <script src="./scripts/seasons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+.episodes {
+  margin: 70px auto;
+  width: 90%;
+}
+
+.episodes .season select {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  margin-left: -4px;
+}
+
+.about-s1 {
+  display: block;
+}
+
+.about-s2 {
+  display: none;
+}
+
+.about-s1 h3,
+.about-s2 h3 {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.about-s1 p,
+.about-s2 p {
+  margin-top: 8px;
+  color: gray;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*
+SEASON 1 EPISODES
+*/
+
+.all-s1, .all-s2 {
+  width: 100%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.all-s1 div, .all-s2 div {
+  width: 100%;
+  object-fit: cover;
+}
+
+.all-s1 div img {
+  width: 100%;
+  height: 100%;
+}
+
+.all-s1 .name-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.all-s1 div h3 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-top: 3px;
+}
+
+.all-s1 div p {
+  color: gray;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*
+SEASON 2 EPISODES
+*/
+
+.all-s2 {
+  display: none;
+}
+
+.all-s2 div img {
+  width: 100%;
+  height: 100%;
+}
+
+.all-s2 .name-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.all-s2 div h3 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-top: 3px;
+}
+
+.all-s2 div p {
+  color: gray;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}

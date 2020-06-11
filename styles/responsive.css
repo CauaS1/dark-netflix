@@ -1,0 +1,173 @@
+@media(max-width: 1350px) {
+  .all-s1, .all-s2 {
+    gap: 30px 20px;
+  }
+  .all-s2 {
+    display: none;
+  }
+  .all-s1 div, .all-s2 div {
+    width: 100%;
+  }
+  .all-s1 div img, .all-s2 div img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .all-s1 div p, .all-s2 div p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .all-s1, .all-s2 {
+    gap: 35px 15px;
+  }
+  .all-s2 div p {
+    font-size: 13px;
+  }
+  .all-s2 div img {
+    height: 154.83px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1025px) {
+  .all-s1, .all-s2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .all-s1 div img, .all-s2 div img {
+    width: 100%;
+    height: 100%;
+  }
+  .all-s2 .ep-six, .all-s2 .ep-seven {
+    height: 253.45px;
+  }
+  .all-s2 {
+    display: none;
+  }
+  .all-s1 div p, .all-s2 div p {
+    font-size: 13px;
+  }
+  .about-dark .content p span {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 995px) {
+  .all-s1 .ep-one, .all-s1 .ep-six, .all-s1 .ep-ten {
+    height: 247px;
+  }
+}
+
+@media (max-width: 985px) {
+  .all-s1 .ep-three {
+    height: 247px;
+  }
+  .all-s2 div img {
+    height: 234px;
+  }
+  .all-s1 div img {
+    height: 234px;
+  }
+  header .buttons h3 {
+    display: none;
+  }
+  header .buttons {
+    width: 215px;
+  }
+}
+
+@media (max-width: 970px) {
+  .all-s2 div img {
+    height: 214px;
+  }
+  .all-s1 div img {
+    height: 214px;
+  }
+
+  header .header .img-container {
+    margin: 15px 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .all-s2 div img {
+    height: 200px;
+  }
+  .all-s1 div img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 750px) {
+  .all-s2 div img {
+    height: 190px;
+  }
+  .all-s1 div img {
+    height: 190px;
+  }
+}
+
+@media (max-width: 690px) {
+  .all-s2 div img {
+    height: 170px;
+  }
+  .all-s1 div img {
+    height: 170px;
+  }
+  main .backg-dark::before {
+    width: 230px;
+  }
+  main .backg-dark::after {
+    left: 230px;
+  }
+}
+
+@media (max-width: 610px) {
+  .all-s2 div img {
+    height: 150px;
+  }
+  .all-s1 div img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 530px) {
+  main .about-dark {
+    margin-top: 220px;
+  }
+
+  main .backg-dark {
+    background-image: url('../img/background2.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 250px;
+  }
+
+  main .backg-dark::after {
+   display: none;
+  }
+
+  main .backg-dark::before {
+    display: none;
+  }
+
+  main .about-dark .logo {
+    width: 400px;
+    margin-left: -60px;
+  }
+
+
+  main .about-dark p, main .about-dark h4 {
+    width: 400px;
+    margin: 10px 0 0 -100px;
+  }
+
+  header .header .img-container {
+    margin: 15px 10px;
+  }
+
+}

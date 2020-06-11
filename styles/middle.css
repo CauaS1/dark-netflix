@@ -1,0 +1,74 @@
+.season-3 {
+  width: 90%;
+  border-top: 0.5px solid rgba(204, 204, 204, 0.397);
+  border-bottom: 0.5px solid rgba(204, 204, 204, 0.397);
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.season-3 h3 {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.season-3 p {
+  color: gray;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.videos {
+  width: 90%;
+  margin: auto;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+span {
+  color: gray;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/*thumbnails*/
+
+.videos .thumbnails {
+  display: flex;
+  margin-top: 30px;
+}
+
+.thumbnails div {
+  padding-right: 20px;
+  outline: none;
+  position: relative;
+}
+
+div img {
+  cursor: pointer;
+}
+
+.thumbnails::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100px;
+  height: 318px;
+  background: linear-gradient(90deg, rgba(24,24,24,1) 10%, rgba(255,255,255,0) 100%)  
+}
+
+.thumbnails div p {
+  color: #fff;
+  text-align: center;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
